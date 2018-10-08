@@ -10,3 +10,11 @@ last_element = shopping_list[-1]
 print(last_element)
 element5 = shopping_list[5]
 print(element5)
+
+suitcase = ['shirt', 'shirt', 'pants', 'pants', 'pajamas', 'books']
+
+beginning = suitcase[0:4]
+
+print(beginning)
+
+middle = suitcase[2:4]
