@@ -15,3 +15,12 @@ hasattr(attributeless, "fake_attribute")
 
 getattr(attributeless, "other_fake_attribute", 800)
 # returns 800, the default value
+
+
+how_many_s = [{'s': False}, "sassafrass", 18, ["a", "c", "s", "d", "s"]]
+
+for element in how_many_s:
+  print("Element is: " + str(element))
+  #Checks if element can have the attribute "count" passed, if true count
+  if hasattr(element, "count"):
+    print(element.count("s"))
